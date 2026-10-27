@@ -16,33 +16,45 @@
 }
 
 body{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background:#f5f7fa;
     color:#333;
     line-height:1.7;
 }
 
 header{
-    background:#24292f;
-    color:white;
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.60),
+        rgba(0,0,0,0.75)
+    ),
+    url('images/header-bg.png');
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
     text-align:center;
-    padding:100px 20px;
+    color:white;
+    padding:180px 20px;
 }
 
 header h1{
-    font-size:3rem;
-    margin-bottom:10px;
+    font-size:4rem;
+    margin-bottom:15px;
+    text-shadow:0 4px 15px rgba(0,0,0,0.8);
 }
 
 header p{
-    color:#d0d7de;
-    font-size:1.2rem;
+    font-size:1.3rem;
+    color:white;
+    text-shadow:0 2px 10px rgba(0,0,0,0.8);
 }
 
 .container{
     max-width:1100px;
     margin:auto;
-    padding:30px;
+    padding:40px 20px;
 }
 
 .card{
@@ -81,6 +93,7 @@ h2{
     text-decoration:none;
     border-radius:8px;
     font-weight:bold;
+    transition:0.3s;
 }
 
 .button:hover{
@@ -109,93 +122,138 @@ footer{
 
 <header>
 
-<h1>Gerardo Esposito</h1>
+    <h1>Gerardo Esposito</h1>
 
-<p>
-Game Localization Specialist
-<br>
-English → Italian
-</p>
+    <p>
+        Game Localization Specialist
+    </p>
+
+    <p>
+        English → Italian
+    </p>
+
+    <p style="margin-top:25px; font-size:1.1rem;">
+        Bringing games to Italian players through accurate and immersive localization.
+    </p>
 
 </header>
 
 <div class="container">
 
-<div class="card">
+    <div class="card">
 
-<h2>About Me</h2>
+        <h2>About Me</h2>
 
-<p>
-I am an Italian Game Localization Specialist focused on translating and adapting
-video game content from English to Italian.
-</p>
+        <p>
+            I am an Italian Game Localization Specialist with experience
+            translating and adapting video game content from English to Italian.
+        </p>
 
-<br>
+        <br>
 
-<p>
-My experience includes user interface localization, gameplay systems,
-tutorials, terminology consistency, proofreading and linguistic quality assurance.
-</p>
+        <p>
+            My work focuses on creating natural, immersive and player-friendly
+            translations while preserving the original tone, style and gameplay experience.
+        </p>
 
-<a class="button" href="projects.html">
-View My Projects
-</a>
+        <br>
 
-</div>
+        <p>
+            Experienced in user interface localization, gameplay systems,
+            tutorials, settings, terminology management, proofreading and
+            linguistic quality assurance.
+        </p>
 
-<div class="card">
+        <a href="projects.html" class="button">
+            View My Projects
+        </a>
 
-<h2>Skills</h2>
+    </div>
 
-<div class="skills">
+    <div class="card">
 
-<span class="skill">Game Localization</span>
-<span class="skill">Translation EN → IT</span>
-<span class="skill">UI Localization</span>
-<span class="skill">Gameplay Systems</span>
-<span class="skill">Tutorial Localization</span>
-<span class="skill">Proofreading</span>
-<span class="skill">QA Testing</span>
-<span class="skill">Terminology Management</span>
+        <h2>Skills</h2>
 
-</div>
+        <div class="skills">
 
-</div>
+            <span class="skill">Game Localization</span>
+            <span class="skill">Translation EN → IT</span>
+            <span class="skill">UI Localization</span>
+            <span class="skill">Gameplay Systems</span>
+            <span class="skill">Tutorial Localization</span>
+            <span class="skill">Proofreading</span>
+            <span class="skill">QA Testing</span>
+            <span class="skill">Terminology Management</span>
 
-<div class="card contact">
+        </div>
 
-<h2>Contact</h2>
+    </div>
 
-<p>
-<strong>Email:</strong>
-<a href="mailto:esposito9191@gmail.com">
-esposito9191@gmail.com
-</a>
-</p>
+    <div class="card">
 
-<br>
+        <h2>What I Do</h2>
 
-<p>
-<strong>GitHub:</strong>
-<a href="https://github.com/gesposito-translator">
-github.com/gesposito-translator
-</a>
-</p>
+        <p>
+            • Video Game Localization
+        </p>
 
-<br>
-<br>
+        <p>
+            • User Interface Translation
+        </p>
 
-<p>
-Available for freelance and collaborative game localization projects.
-</p>
+        <p>
+            • Tutorials & Help Content
+        </p>
 
-</div>
+        <p>
+            • Gameplay Terminology Adaptation
+        </p>
+
+        <p>
+            • Linguistic Quality Assurance
+        </p>
+
+        <p>
+            • Consistency & Style Review
+        </p>
+
+    </div>
+
+    <div class="card contact">
+
+        <h2>Contact</h2>
+
+        <p>
+            <strong>Email:</strong>
+            <a href="mailto:esposito9191@gmail.com">
+                esposito9191@gmail.com
+            </a>
+        </p>
+
+        <br>
+
+        <p>
+            <strong>GitHub:</strong>
+            <a href="https://github.com/gesposito-translator" target="_blank">
+                github.com/gesposito-translator
+            </a>
+        </p>
+
+        <br>
+
+        <br>
+
+        <p>
+            Available for freelance and collaborative game localization projects.
+        </p>
+
+    </div>
 
 </div>
 
 <footer>
 
-© 2026 Gerardo Esposito · Game Localization Portfolio
+    © 2026 Gerardo Esposito · Game Localization Portfolio
 
 </footer>
 
